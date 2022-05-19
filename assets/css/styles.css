@@ -1,0 +1,118 @@
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+
+}
+
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: "lato", sans-serif;
+}
+
+
+
+.parallax {
+    background-image: url(../img/parallax1.jpg);
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu1,
+#menu2 {
+    display: flex;
+
+}
+
+#menu1 a,
+#menu2 a {
+    text-decoration: none;
+    color: gray;
+    
+    font-size: 0.8rem;
+}
+
+#menu1 li,
+#menu2 li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#about p {
+    padding: 2rem;
+
+    
+
+}
+
+#sousTitre {
+    font-size: 00.85rem;
+    font-style: italic;
+    text-align: center;
+    
+    color: gray;
+}
+
+#menu2 a {
+    color: black;
+
+}
+
+#menu2 {
+    box-shadow: 0 2px 1px gray;
+}
+
+/* Section Welcome */
+
+#corp_Welcome {
+    display: flex;
+    padding: 1rem 6rem;
+
+}
+
+#img {
+    width: 50%;
+    padding-right: 1rem;
+}
+#img img{
+    width: 100%;
+}
+
+#text {
+    width: 50%;
+    text-align: justify;
+
+}
+
+#img figcaption{
+    padding-bottom: 2rem;
+    text-align: center;
+}

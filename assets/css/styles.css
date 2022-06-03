@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+ 
 #menu1,
 #menu2 {
     display: flex;
@@ -116,3 +116,35 @@ h2 {
     padding-bottom: 2rem;
     text-align: center;
 }
+
+.progresseBar{
+    
+    background-color: grey;
+    align-items: center;
+}
+
+#progresseBar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 4rem;
+
+}
+
+#progresseBar p{
+    color: gray;
+    padding: 1rem;
+    
+}  
+
+#pb1,#pb2,#pb3 {
+    width: 1%;
+    height: 30px;
+    background-color: rgb(50,50,50);
+    transition: all 2s;
+    
+    
+}
+
+
+

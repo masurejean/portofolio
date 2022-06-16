@@ -145,7 +145,7 @@ h2 {
     width: 1%;
     height: 30px;
     background-color: rgb(50, 50, 50);
-    transition: all 2s;
+    transition: all 4s;
 
 
 }
@@ -181,3 +181,164 @@ h2 {
     text-align: center;
     color: gray;
 }
+
+#buttonMyWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#buttonMyWork button{
+    height: 3rem;
+    margin:3rem;
+}
+
+#imgContact {
+    background-image: url(../img/parallax3.jpg);
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgContact h2 {
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#titreContact{
+    text-align: center;
+    color:gray;
+    padding: 5rem;
+    
+}
+
+#titreContact p{
+    font-size: larger;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.detail{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+#map{
+    
+    background-image:url(../img/map.jpg) ;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    margin: 1rem;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    margin: 1rem;
+   
+    line-height: 3rem;
+}
+#contact i{
+    padding: 0 0.5rem;
+}
+
+#formulaire{
+    
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0  .5rem;
+}
+#formulaire form{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#formulaire>div{
+    width:50%;
+}
+
+#name, #email{
+    width: 45%;
+    margin: 5px;
+}
+#message{
+    width: 92%;
+    margin: 5px;  
+}
+
+#button{
+    margin: 5px;
+    padding: 0.2rem;
+    
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+
+}
+#bp{
+    width: 100%;
+    display: flex;
+    justify-content:end;
+
+    
+}
+#bp>input{
+    margin-right: 3rem;
+}
+
+/* footer */
+footer>div{
+    background-color: #484343;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#gohome{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    line-height: 2rem;
+    
+
+
+}
+
+#gohome a{
+    color: black;
+    text-decoration: none;
+
+}
+
+footer p{
+    color: white;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+
+

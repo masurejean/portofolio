@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
+    <meta name="viewport" content="width=device-width
     , initial-scale=1.0">
     <title>Parallax exo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" type="module" defer></script>
 
 </head>
 
@@ -112,7 +112,7 @@
                 <div id="pb3"></div>
             </div>
         </section>
-<!-- section  satifaction -->
+        <!-- section  satifaction -->
         <section>
             <div id=partenaire>
                 <div class="partenaire">
@@ -126,7 +126,7 @@
                     <p>happy clients</p>
                 </div>
                 <div>
-                    <img class = parte src="./assets/img/parallax2.jpg" alt="">
+                    <img class=parte src="./assets/img/parallax2.jpg" alt="">
 
                 </div>
 
@@ -135,18 +135,72 @@
         </section>
 
         <section id="myWork">
-            <p><h2>MY WORK</h2></p>
+            <p>
+            <h2>MY WORK</h2>
+            </p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ex!</p>
             <div id="diapo">
 
 
             </div>
+            <div id="buttonMyWork"><button type="button">Load me more</button></div>
 
         </section>
 
+        <section>
+            <div id="imgContact">
+                <H2>CONTACT</H2>
+            </div>
+            <div id="titreContact">
+                <h2> WHERE I WORKS</h2>
+                <p>I love your feedback</p>
+            </div>
+            <div class="detail">
+                <div id="map"></div>
+                <div id="contact">
+                    <p> <i class="fa-solid fa-location-dot"></i> Chicago US</p>
+                    <p><i class="fa-solid fa-phone"></i> phone: +00121515</p>
+                    <p><i class="fa-solid fa-envelope-open-text"></i>Email: monemail@fr</p>
+                    <p>swing up by for cup of<i class="fa-solid fa-mug-saucer"></i>or leave me a note.</p>
+                </div>
+                <div></div>
+                <div id="formulaire">
+                    <div></div>
+                    <form action="" method="post">
+                        <input id="name" type="text" placeholder="name">
+                        <input id="email" type="text" placeholder="email">
+                        <input id="message" type="text" placeholder="message">
+                        <div id="bp">
+
+                            <input id="button" type="button" value="Send Massage">
+
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
     </main>
     <footer>
+        <div>
+            <p><span id="gohome"><a href="#menu1"><i class="fa-solid fa-arrow-right"></i> GO HOME</a></span></p>
+            <p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-snapchat"></i>
+            </p>
+            <p>Power by Jean-Philippe</p>
 
+        </div>
     </footer>
 
 </body>
